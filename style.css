@@ -282,6 +282,7 @@ footer fieldset {
         font-size: 15px;
     }
     #email {
+        float: center;
         position: relative;
         top: 30px;
         left: -100px;
