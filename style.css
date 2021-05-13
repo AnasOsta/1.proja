@@ -278,14 +278,14 @@ footer fieldset {
     }
     #telefon {
         position: relative;
-        left: 100px;
+        left: 50px;
         font-size: 15px;
     }
     #email {
         position: relative;
         top: 30px;
         left: -100px;
-        font-size: 13px;
+        font-size: 11px;
     }
     .liste {
         position: relative;
