@@ -1,0 +1,280 @@
+                    * {
+                        list-style-type: none;
+                        text-decoration: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    body {
+                        font-family: oblique;
+                    }
+                    
+                    header {
+                        padding: 0;
+                        background-color: #fff;
+                        height: 50px;
+                        border-bottom: ridge rgb(182, 177, 177);
+                    }
+                    
+                    header h2 {
+                        float: left;
+                    }
+                    
+                    header div {
+                        float: right;
+                    }
+                    
+                    section {
+                        text-align: center;
+                        border-bottom: #000 ridge;
+                        height: 400px;
+                    }
+                    
+                    section img {
+                        width: 50%;
+                        height: 100.7%;
+                        float: right;
+                    }
+                    
+                    .h2 {
+                        text-align: center;
+                    }
+                    
+                    .card1 {
+                        text-align: center;
+                        width: 85%;
+                    }
+                    
+                    .post {
+                        margin: 10px;
+                        float: right;
+                    }
+                    
+                    .card1 img {
+                        height: 150px;
+                        background-size: cover;
+                    }
+                    
+                    footer {
+                        margin-left: 1%;
+                        width: 98%;
+                        height: 70px;
+                    }
+                    
+                    footer label {
+                        padding-top: 1.6%;
+                        padding-right: 10%;
+                        padding-left: 10%;
+                    }
+                    /* nav */
+                    
+                    .sidenav {
+                        height: 100%;
+                        width: 0;
+                        position: fixed;
+                        z-index: 2;
+                        top: 0;
+                        left: 0;
+                        background-color: rgb(255, 255, 255);
+                        overflow-x: hidden;
+                        transition: 0.5s;
+                        padding-top: 60px;
+                    }
+                    
+                    .sidenav a {
+                        margin: 0;
+                        padding: 8px 8px 8px 32px;
+                        text-decoration: none;
+                        font-size: 25px;
+                        color: #000;
+                        display: block;
+                        transition: 0.3s;
+                    }
+                    
+                    .astyle a {
+                        float: left;
+                        width: 200px;
+                        display: block;
+                        font-weight: bold;
+                        border-bottom: ridge;
+                    }
+                    
+                    .sidenav a:hover {
+                        padding-left: 50px;
+                        color: rgb(207, 15, 15);
+                    }
+                    
+                    .sidenav ul {
+                        color: #000;
+                        list-style-type: none;
+                        text-decoration: none;
+                        padding: 0;
+                    }
+                    
+                    .sidenav ul ul {
+                        display: none;
+                    }
+                    
+                    .sidenav ul li:hover>ul {
+                        display: block;
+                    }
+                    
+                    .sidenav .closebtn {
+                        position: absolute;
+                        top: 0;
+                        right: 25px;
+                        font-size: 36px;
+                        margin-left: 50px;
+                    }
+                    
+                    #main {
+                        position: relative;
+                        right: 10px;
+                        top: -20px;
+                        float: left;
+                        transition: margin-lift .5s;
+                        padding: 16px;
+                    }
+                    
+                    span {
+                        font-size: 30px;
+                        cursor: pointer;
+                    }
+                    
+                    .navlogin {
+                        font-size: 5px;
+                        float: left;
+                        width: 100%;
+                        margin-top: 20px;
+                        border-top: ridge 5px rgba(0, 0, 0, 0.589)
+                    }
+                    /* css contact form */
+                    
+                    .myform input {
+                        width: 80%;
+                        height: 30px;
+                        text-align: center;
+                        margin: 5px;
+                        border: 1px solid #fff;
+                        border-radius: 7px;
+                    }
+                    
+                    .myform {
+                        border: 2px solid #eee;
+                        padding: 10px;
+                        margin: 10px;
+                        text-align: center;
+                    }
+                    
+                    .myform form {
+                        background: #32a0c2;
+                        border-radius: 10px;
+                        padding: 10px;
+                    }
+                    
+                    .myform label {
+                        display: block;
+                    }
+                    
+                    .myform textarea {
+                        width: 80%;
+                        border: 0;
+                        resize: none;
+                        min-height: 200px;
+                    }
+                    
+                    .myform input[type="submit"] {
+                        background: rgb(41, 115, 253);
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 15px;
+                        cursor: pointer;
+                    }
+                    
+                    .myform input[type="submit"]:hover {
+                        background: darkred;
+                    }
+                    
+                    .myspor {
+                        border: 2px solid rgb(0, 0, 0);
+                        padding: 10px;
+                        margin: 10px;
+                    }
+                    /* Mirasımız css */
+                    
+                    .spor {
+                        background: #2ea0a08e;
+                        border-radius: 10px;
+                        padding: 10px;
+                    }
+                    /* Şehrim css */
+                    
+                    .sehir img {
+                        width: 50%;
+                        cursor: pointer;
+                    }
+                    /* API css */
+                    
+                    .container {
+                        padding: 10px;
+                        margin: 0 100px 0 100px;
+                        height: 115vh;
+                    }
+                    
+                    #image {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 130vh;
+                        z-index: -1;
+                        background-size: cover;
+                        opacity: 0.7;
+                    }
+                    
+                    .alert-info {
+                        background: #b6d0d873;
+                        color: black;
+                    }
+                    
+                    @media (max-width:575px) {
+                        header h2 {
+                            padding-left: 15%;
+                        }
+                        .login {
+                            display: none;
+                        }
+                        .h1 {
+                            position: relative;
+                            top: 0;
+                        }
+                        section img {
+                            width: 100%;
+                            height: 50%;
+                        }
+                        .card1 {
+                            width: 93%;
+                        }
+                        .card2 {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .section {
+                            height: 1000px;
+                        }
+                        footer label {
+                            padding-top: 0;
+                        }
+                    }
+                    
+                    @media (min-width:580px) and (max-width:800px) {
+                        .card2 {
+                            margin-left: -100px;
+                        }
+                        section label {
+                            width: 50%;
+                        }
+                        section {
+                            height: 490px;
+                        }
+                    }

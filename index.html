@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAS OSTA</title>
+    <link rel="icon" type="image/png" href="./image/PageIcon.png">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="mysidenav" class="sidenav">
+            <label><a href="#" class="closebtn" onclick="closeNav()">&times;</a></label>
+            <div class="astyle">
+                <a href="index.html">Ana Sayfa</a>
+                <ul>
+                    <li>
+                        <a href="#">Konular</a>
+                        <ul>
+                            <li>
+                                <a href="./image/ANAS.pdf">CV</a>
+                            </li>
+                            <li>
+                                <a href="./html/sehrim.html">Şehrim</a>
+                            </li>
+                            <li>
+                                <a href="./html/mirasimiz.html">Mirasımız</a>
+                            </li>
+                            <li>
+                                <a href="./html/API.html">API</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="./html/Ben_Kim.html">Ben Kim??</a>
+                <a href="./php/contact.php">İletisim</a>
+            </div>
+            <div class="navlogin">
+                <a href="./php/login.php" class="btn">Oturum aç</a>
+                <a href="./php/register.php" class="btn btn-primary">Kayıt Ol</a>
+            </div>
+        </div>
+
+        <div id="main">
+            <span onclick="openNav()">
+            &#9776;
+            </span>
+        </div>
+        <h2>ANAS OSTA</h2>
+
+        <div class="login">
+            <a href="./php/login.php" class="btn">Oturum aç</a>
+            <a href="./php/register.php" class="btn btn-primary">Kayıt Ol</a>
+        </div>
+
+    </header>
+    <main>
+        <section class="section">
+            <img src="./image/BenKim.png" alt="">
+            <label>
+                <h2><strong>Siteye Genel Bakış</strong></h2>
+                <h4>
+                    Bu sitede çeşitli konular göreceksiniz <br> <br> 
+                    benim ilgili bazı bilgiler ve  benim CV,<br> <br>
+                     benim sevdiğim takım ve sevdiğim <br> <br>
+                      şehir ve ben en sevdiğim karakter <br> <br>
+                      bahsettiğimi göreceksiniz
+                </h4>
+            </label>
+        </section>
+        <div>
+            <h2 class="h2">Diğer Konular</h2>
+        </div>
+        <div class="card1">
+
+            <div class="card post" style="width: 18rem;">
+                <img src="./image/CV.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CV</h5>
+                    <p class="card-text">Eğitim : BİLGİSAYAR MÜHENDLİĞİ SAKARYA ÜNİVERSİTE (01.10.2020) DEVAM EDİYORUM
+                    </p>
+                    <a href="./image/ANAS.pdf" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="card post" style="width: 18rem;">
+                <img src="./image/sehrim.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Şehrim</h5>
+                    <p class="card-text"><strong>Hakkında 10 İlginç Bilgi</strong> <br> 1-Dünyanın En Büyük Metropolü <br> 2-Aslında Tokyo Farklı Bir.....</p>
+                    <a href="./html/sehrim.html" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="card post" style="width: 18rem;">
+                <img src="./image/mirasimiz.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mirasımız</h5>
+                    <p class="card-text">Basketbol, takım oyunu şeklinde oynanan ve profesyonel anlamda kapalı salonlarda gerçekleştirilen...</p>
+                    <a href="./html/mirasimiz.html" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="card post" style="width: 18rem;">
+                <img src="./image/BenKim.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ben Kim??</h5>
+                    <p class="card-text">Bemim Adım : Enes Usta <br> Doğum Yeri : Halep <br> 11 Yıldır Suriye'de Yaşıyorum ond'an sonra... </p>
+                    <a href="./html/Ben_Kim.html" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+
+            <div class="card post" style="width: 18rem;">
+                <img src="./image/API.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Breaking Bad API</h5>
+                    <p class="card-text">50 Yaşında lisede kimya öğretmeni olan <em>Walter White</em>, maddi açıdan ailesinin gereksinimlerini .....</p>
+                    <a href="./html/API.html" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="card post" style="width: 18rem;">
+                <img src="./image/iletisim.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">İletisim</h5>
+                    <p class="card-text">Her Hangi Bir Sorunuz Veya Şekeyetiniz Veya Öneriniz Varsa Buradan Kolayıkla Bize Ulaşabilirsiniz</p>
+                    <a href="./php/contact.php" class="btn btn-primary">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <center class="center">
+            <label id="telefon">Telefon : <a href="tel:05525210973">055225210973</a></label>
+            <label id="email">Email : <a href="mailto:anas.osta@ogr.sakarya.edu.tr">ANAS OSTA</a></label>
+        </center>
+    </footer>
+    <script src="java.js"></script>
+</body>
+
+</html>
